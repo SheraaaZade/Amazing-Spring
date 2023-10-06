@@ -1,0 +1,52 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -4,9 +4,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="355b0d67-3434-4753-9297-2f384b9e5a5f" name="Changes" comment="second commit">
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-    </list>
++    <list default="true" id="355b0d67-3434-4753-9297-2f384b9e5a5f" name="Changes" comment="second commit" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -56,7 +54,7 @@
+     "node.js.selected.package.eslint": "(autodetect)",
+     "node.js.selected.package.tslint": "(autodetect)",
+     "nodejs_package_manager_path": "npm",
+-    "settings.editor.selected.configurable": "preferences.pluginManager",
++    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+     "spring.configuration.checksum": "eef7f3c41355bc050c43628b82dc9658"
+   }
+ }]]></component>
+@@ -113,6 +111,7 @@
+       <updated>1696411455271</updated>
+       <workItem from="1696411457509" duration="3915000" />
+       <workItem from="1696415386946" duration="1921000" />
++      <workItem from="1696584449645" duration="161000" />
+     </task>
+     <task id="LOCAL-00001" summary="first commit">
+       <created>1696414220956</created>
+@@ -128,7 +127,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1696416587193</updated>
+     </task>
+-    <option name="localTasksCounter" value="3" />
++    <task id="LOCAL-00003" summary="second commit">
++      <created>1696584504393</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1696584504393</updated>
++    </task>
++    <option name="localTasksCounter" value="4" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
