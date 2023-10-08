@@ -1,7 +1,7 @@
 package catflix.wishlists;
-
-import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
 
 //DAO
-public interface WishlistRepository extends CrudRepository {
+@Repository
+public interface WishlistRepository {
 }

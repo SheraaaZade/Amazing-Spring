@@ -1,5 +1,6 @@
 package catflix.wishlists;
 
+import jakarta.persistence.Id;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -10,5 +11,9 @@ import lombok.ToString;
 @ToString
 @NoArgsConstructor
 public class Wishlist {
+  @Id
+  int id;
+  String pseudo;
+  int productId;
     
 }

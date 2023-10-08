@@ -3,10 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Amazing.iml" filepath="$PROJECT_DIR$/Amazing.iml" />
-      <module fileurl="file://$PROJECT_DIR$/EurekaServer/EurekaServer.iml" filepath="$PROJECT_DIR$/EurekaServer/EurekaServer.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Products/Products.iml" filepath="$PROJECT_DIR$/Products/Products.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Users/Users.iml" filepath="$PROJECT_DIR$/Users/Users.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Wishlists/Wishlists.iml" filepath="$PROJECT_DIR$/Wishlists/Wishlists.iml" />
     </modules>
   </component>
 </project>
