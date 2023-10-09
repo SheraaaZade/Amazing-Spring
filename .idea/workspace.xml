@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="355b0d67-3434-4753-9297-2f384b9e5a5f" name="Changes" comment="second commit">
+    <list default="true" id="355b0d67-3434-4753-9297-2f384b9e5a5f" name="Changes" comment="third commit">
+      <change afterPath="$PROJECT_DIR$/Products/src/main/resources/import.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Users/src/main/resources/import.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Wishlists/src/main/java/catflix/wishlists/http-client.env.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Wishlists/src/main/java/catflix/wishlists/wishlists.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_4_11.xml" beforeDir="false" />
@@ -153,12 +157,19 @@
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_9_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_33.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazing.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Amazing.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Products/src/main/java/be/vinci/products/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Products/src/main/java/be/vinci/products/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Products/src/main/java/be/vinci/products/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Products/src/main/java/be/vinci/products/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Products/src/main/java/be/vinci/products/ProductsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Products/src/main/java/be/vinci/products/ProductsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Products/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Products/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Users/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wishlists/src/main/java/catflix/wishlists/ProductProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wishlists/src/main/java/catflix/wishlists/UsersProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wishlists/src/main/java/catflix/wishlists/Wishlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/Wishlists/src/main/java/catflix/wishlists/Wishlist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wishlists/src/main/java/catflix/wishlists/WishlistController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Wishlists/src/main/java/catflix/wishlists/WishlistController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wishlists/src/main/java/catflix/wishlists/WishlistRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Wishlists/src/main/java/catflix/wishlists/WishlistRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wishlists/src/main/java/catflix/wishlists/WishlistService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Wishlists/src/main/java/catflix/wishlists/WishlistService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wishlists/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Wishlists/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,15 +180,23 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
+        <option value="HTTP Public Environment File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Wishlists" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HttpClientSelectedEnvironments">
+    <file url="file://$PROJECT_DIR$/Wishlists/src/main/java/catflix/wishlists/wishlists.http" environment="dev" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
   <component name="ProjectId" id="2WIDyHf7aZgf6Sz8dicWH4p8tzw" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -196,20 +215,29 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/20213136/Desktop/Spring/Seance3/Amazing/Users/src/main/java/be/vinci/users",
+    "last_opened_file_path": "C:/Users/chehr/OneDrive/Bureau/Repo Coro",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "rest.client.default.execution.environment": "dev",
     "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "eef7f3c41355bc050c43628b82dc9658"
+    "spring.configuration.checksum": "6673cfd68ba458d3d16a517215abbed2",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\chehr\OneDrive\Bureau\Cours\3 BLOC\Spring\Seance 3" />
       <recent name="C:\Users\20213136\Desktop\Spring\Seance3\Amazing\Users\src\main\java\be\vinci\users" />
       <recent name="C:\Users\20213136\Desktop\Spring\Seance3\Amazing\Products\src\main\java\com\example\products" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="catflix.wishlists" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -219,7 +247,10 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.EurekaServerApplication">
+  <component name="RunManager" selected="Spring Boot.WishlistsApplication">
+    <configuration name="wishlists | Ajouter un produit à la wishlist de l'utilisateur" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/Wishlists/src/main/java/catflix/wishlists/wishlists.http" requestIdentifier="Ajouter un produit à la wishlist de l'utilisateur" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="EurekaServer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.eurekaserver.EurekaServerApplication" />
@@ -248,6 +279,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.wishlists | Ajouter un produit à la wishlist de l'utilisateur" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -259,6 +295,7 @@
       <updated>1696411455271</updated>
       <workItem from="1696411457509" duration="3915000" />
       <workItem from="1696415386946" duration="788000" />
+      <workItem from="1696884716899" duration="1817000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1696414220956</created>
@@ -267,7 +304,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696414220956</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="third commit">
+      <option name="closed" value="true" />
+      <created>1696799709483</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1696799709483</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,6 +331,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="third commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="third commit" />
   </component>
 </project>

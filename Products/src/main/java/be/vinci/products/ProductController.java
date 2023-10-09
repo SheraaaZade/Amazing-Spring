@@ -4,11 +4,9 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.concurrent.ConcurrentHashMap;
 //Gestion des https, il fait appel au service
 @RestController
 public class ProductController {
-    private static final ConcurrentHashMap<Integer, Product> products = new ConcurrentHashMap<>();
     private final ProductService service;
 
     public ProductController(ProductService service) {

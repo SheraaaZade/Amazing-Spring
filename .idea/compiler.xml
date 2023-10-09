@@ -15,10 +15,6 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Clients" target="17" />
-      <module name="EurekaServer" target="17" />
-      <module name="Products" target="17" />
-      <module name="Users" target="17" />
-      <module name="Wishlists" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
