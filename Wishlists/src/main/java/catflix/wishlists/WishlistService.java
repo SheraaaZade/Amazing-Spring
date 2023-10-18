@@ -12,7 +12,7 @@ public class WishlistService {
   }
 
   public boolean deleteProductFromWishlists(int product) {
-    Iterable<Wishlist> wishlists = repository.findallByProductId(product);
+    Iterable<Wishlist> wishlists = repository.findAllByProductId(product);
     if (wishlists == null) {
       return false;
     }

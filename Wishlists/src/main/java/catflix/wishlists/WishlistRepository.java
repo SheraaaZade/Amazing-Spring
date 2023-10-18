@@ -17,6 +17,6 @@ public interface WishlistRepository extends CrudRepository<Wishlist, Long> {
   @Transactional
   void deleteByPseudo(String pseudo);
 
-  @Query(value = "SELECT * FROM wishlists WHERE product = ?", nativeQuery = true)
-  Iterable<Wishlist> findallByProductId(int productId);
+
+  Iterable<Wishlist> findAllByProductId(int productId);
 }

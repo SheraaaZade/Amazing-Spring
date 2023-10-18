@@ -66,7 +66,7 @@ public class WishlistController {
     for (Wishlist w : wishlistService.readAll(pseudo)) {
       ResponseEntity<Product> rsp = prod.readOne(w.getProductId());
       if (rsp.getStatusCode() != HttpStatus.OK) {
-        System.out.println("aaaaaah je meurs");
+        System.out.println("aaaaaah je meurs by M. Xavier");
       }
       result.add(rsp.getBody());
     }
@@ -97,7 +97,6 @@ public class WishlistController {
     if (product < 0) {
       return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
     }
-
     boolean deleted = wishlistService.deleteProductFromWishlists(product);
     if (!deleted) {
       return new ResponseEntity<>(HttpStatus.NOT_FOUND);
