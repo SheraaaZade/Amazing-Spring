@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.*;
 
 //Gestion des https, il fait appel au service
 @RestController
+
 public class ProductController {
     private final ProductService service;
 

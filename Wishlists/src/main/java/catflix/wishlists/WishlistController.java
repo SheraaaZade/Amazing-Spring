@@ -8,12 +8,16 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PutMapping;
 
+import java.util.ArrayList;
+
 @Controller
 public class WishlistController {
 
   private final WishlistService wishlistService;
+  private final ProductProxy prod;
 
-  public WishlistController(WishlistService wishlistService) {
+  public WishlistController(WishlistService wishlistService, ProductProxy pxy) {
+    this.prod = pxy;
     this.wishlistService = wishlistService;
   }
 
@@ -52,17 +56,24 @@ public class WishlistController {
     }
   }
 
-  @GetMapping("/wishlists/{pseudo}/{product}")
-  public ResponseEntity<Iterable<Wishlist>> getWishlist(@PathVariable String pseudo) {
+  @GetMapping("/wishlists/{pseudo}")
+  public ResponseEntity<Iterable<Product>> getWishlist(@PathVariable String pseudo) {
     if (pseudo == null || pseudo.isBlank()) {
       return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
     }
 
-    Iterable<Wishlist> wishlists = wishlistService.readAll(pseudo);
-    if (wishlists == null) {
+    ArrayList<Product> result = new ArrayList<>();
+    for (Wishlist w : wishlistService.readAll(pseudo)) {
+      ResponseEntity<Product> rsp = prod.readOne(w.getProductId());
+      if (rsp.getStatusCode() != HttpStatus.OK) {
+        System.out.println("aaaaaah je meurs");
+      }
+      result.add(rsp.getBody());
+    }
+    if (result.isEmpty()) {
       return new ResponseEntity<>(HttpStatus.NOT_FOUND);
     } else {
-      return new ResponseEntity<>(wishlists, HttpStatus.OK);
+      return new ResponseEntity<>(result, HttpStatus.OK);
     }
   }
 

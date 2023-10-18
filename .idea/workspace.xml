@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="355b0d67-3434-4753-9297-2f384b9e5a5f" name="Changes" comment="first_correction">
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Wishlists/src/main/java/catflix/wishlists/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Wishlists/src/main/java/catflix/wishlists/ProductProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Users/src/main/resources/import.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/resources/import.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wishlists/src/main/java/catflix/wishlists/wishlists.http" beforeDir="false" afterPath="$PROJECT_DIR$/Wishlists/src/main/java/catflix/wishlists/wishlists.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Products/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Products/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Products/src/main/java/be/vinci/products/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Products/src/main/java/be/vinci/products/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Products/src/main/java/be/vinci/products/ProductsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Products/src/main/java/be/vinci/products/ProductsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wishlists/src/main/java/catflix/wishlists/WishlistController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Wishlists/src/main/java/catflix/wishlists/WishlistController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,9 +22,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
         <option value="HTTP Public Environment File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -42,30 +46,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/chehr/OneDrive/Bureau/Repo Coro&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;rest.client.default.execution.environment&quot;: &quot;dev&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;6673cfd68ba458d3d16a517215abbed2&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "C:/Users/chehr/OneDrive/Bureau/Repo Coro",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "rest.client.default.execution.environment": "dev",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "97b054876f809f482f3ecb15e2bdafa2",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -149,6 +153,8 @@
       <workItem from="1696884716899" duration="2074000" />
       <workItem from="1696886812521" duration="16000" />
       <workItem from="1696968991918" duration="962000" />
+      <workItem from="1697540585643" duration="1877000" />
+      <workItem from="1697618891357" duration="3925000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1696414220956</created>
