@@ -58,23 +58,28 @@ public class WishlistController {
 
   @GetMapping("/wishlists/{pseudo}")
   public ResponseEntity<Iterable<Product>> getWishlist(@PathVariable String pseudo) {
-    if (pseudo == null || pseudo.isBlank()) {
-      return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
-    }
+    Iterable<Product> wishlist = wishlistService.readFromUser(pseudo);
+    return ResponseEntity.ok(wishlist);
+//    if (pseudo == null || pseudo.isBlank()) {
+//      return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
+//    }
 
-    ArrayList<Product> result = new ArrayList<>();
-    for (Wishlist w : wishlistService.readAll(pseudo)) {
-      ResponseEntity<Product> rsp = prod.readOne(w.getProductId());
-      if (rsp.getStatusCode() != HttpStatus.OK) {
-        System.out.println("aaaaaah je meurs by M. Xavier");
-      }
-      result.add(rsp.getBody());
-    }
-    if (result.isEmpty()) {
-      return new ResponseEntity<>(HttpStatus.NOT_FOUND);
-    } else {
-      return new ResponseEntity<>(result, HttpStatus.OK);
-    }
+  //  ArrayList<Product> result = new ArrayList<>();
+  //  Iterable<Wishlist> wishlist= wishlistService.readAll(pseudo);
+
+
+//    for (Wishlist w : wishlist) {
+//      ResponseEntity<Product> rsp = prod.readOne(w.getProductId());
+//      if (rsp.getStatusCode() != HttpStatus.OK) {
+//        System.out.println("aaaaaah je meurs by M. Xavier");
+//      }
+//      result.add(rsp.getBody());
+//    }
+//    if (result.isEmpty()) {
+//      return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+//    } else {
+//      return new ResponseEntity<>(result, HttpStatus.OK);
+//    }
   }
 
   @DeleteMapping("/wishlists/user/{pseudo}")

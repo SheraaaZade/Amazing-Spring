@@ -24,7 +24,7 @@ public interface ProductProxy {
      * @response 404: product not found, 200: returns found product
      */
     @GetMapping("/products/{id}")
-    ResponseEntity<Product> readOne(@PathVariable int id);
+    Product readOne(@PathVariable int id);
 
     @PutMapping("/products/{id}")
     ResponseEntity<Product> updateOne(@PathVariable int id, @RequestBody Product product);

@@ -6,7 +6,7 @@ import org.springframework.stereotype.Repository;
 
 //DAO
 @Repository
-public interface WishlistRepository extends CrudRepository<Wishlist, Long> {
+public interface WishlistRepository extends CrudRepository<Wishlist, Integer> {
   boolean existsByPseudoAndProductId(String pseudo, int productId);
 
   @Transactional
